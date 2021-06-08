@@ -1,0 +1,87 @@
+<br />
+<b>Notice</b>: Undefined index: unqid in <b>/websites/openpsychometrics.org/tests/RIASEC/2.php</b> on line <b>26</b><br />
+<br />
+<b>Notice</b>: Undefined index: seconds in <b>/websites/openpsychometrics.org/tests/RIASEC/2.php</b> on line
+<b>30</b><br />
+
+<html>
+
+<head>
+	<title>Holland Code (RIASEC) Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		div {
+			font-family: "Arvo", serif;
+		}
+	</style>
+	<script type="text/javascript">
+		function update_options()
+	{
+		if(document.getElementById("syes").checked)
+		{
+			document.getElementById("get_results_form").style.display = "none";
+			document.getElementById("continue_form").style.display = "block";
+		}
+		else
+		{
+			document.getElementById("get_results_form").style.display = "block";
+			document.getElementById("continue_form").style.display = "none";
+		}
+	}
+
+	
+	</script>
+</head>
+
+<body style="margin:0; padding:0;background-color:#F5F5F5;">
+
+
+	<div id="end" style="margin:0 auto; max-width:650px;padding:1em;">
+
+		You have completed the test.
+		<br/><br/>
+	Before you view your results, would you be willing to answer a few more research questions?
+		<br/>
+		<label><input id="syes" type="radio" name="dosurvey" value="1" onchange="update_options();" /> Yes (3-6  minutes)</label><br/>
+		<label><input id="sno" type="radio" name="dosurvey" value="2" onchange="update_options();"  /> No</label>
+		<br/><br/>
+		<form id="get_results_form" method="POST" action="results.php?d=TVRN-01ULXNNVFVzTVRn-01USXNNVFFj">
+			<input type="submit" value="Get results" />
+
+			<input type="hidden" name="R" value="13" />
+			<input type="hidden" name="I" value="17" />
+			<input type="hidden" name="A" value="15" />
+			<input type="hidden" name="S" value="18" />
+			<input type="hidden" name="E" value="12" />
+			<input type="hidden" name="C" value="14" />
+
+			<input type="hidden" name="dosurvey" value="2" />
+			<input name="unqid" type="hidden" value="" />
+			<input name="seconds" type="hidden" value="1622712545" />
+		</form>
+		<form id="continue_form" style="display:none;" method="POST" action="3.php">
+			<input type="submit" value="Continue" />
+
+			<input type="hidden" name="R" value="13" />
+			<input type="hidden" name="I" value="17" />
+			<input type="hidden" name="A" value="15" />
+			<input type="hidden" name="S" value="18" />
+			<input type="hidden" name="E" value="12" />
+			<input type="hidden" name="C" value="14" />
+
+			<input name="unqid" type="hidden" value="" />
+			<input name="seconds" type="hidden" value="1622712545" />
+			<input type="hidden" name="surveyorid" value="osri_supl1" />
+		</form>
+
+	</div>
+
+
+
+	</form>
+
+
+</body>
+
+</html>

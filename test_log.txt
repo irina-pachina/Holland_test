@@ -1,0 +1,223 @@
+DEBUG - 08-Jun-21 11:55:53 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 11:55:54 - https://openpsychometrics.org:443 "GET /tests/RIASEC/1.php HTTP/1.1" 200 2651
+INFO - 08-Jun-21 11:56:42 - test_data = {'I5A': 1, 'I5I': 1, 'I5E': 74510, 'C3A': 2, 'C3I': 2, 'C3E': 160493, 'R1A': 3, 'R1I': 3, 'R1E': 26123, 'I7A': 4, 'I7I': 4, 'I7E': 419022, 'E2A': 5, 'E2I': 5, 'E2E': 559175, 'S8A': 4, 'S8I': 6, 'S8E': 341593, 'C1A': 3, 'C1I': 7, 'C1E': 289367, 'S7A': 2, 'S7I': 8, 'S7E': 27835, 'S1A': 1, 'S1I': 9, 'S1E': 338920, 'A2A': 2, 'A2I': 10, 'A2E': 677189, 'R2A': 3, 'R2I': 11, 'R2E': 351054, 'E3A': 4, 'E3I': 12, 'E3E': 542797, 'R4A': 5, 'R4I': 13, 'R4E': 322303, 'I3A': 4, 'I3I': 14, 'I3E': 31033, 'R3A': 3, 'R3I': 15, 'R3E': 334394, 'S5A': 2, 'S5I': 16, 'S5E': 482133, 'I1A': 1, 'I1I': 17, 'I1E': 115880, 'C6A': 2, 'C6I': 18, 'C6E': 541969, 'A1A': 3, 'A1I': 19, 'A1E': 273035, 'R6A': 4, 'R6I': 20, 'R6E': 284486, 'I6A': 5, 'I6I': 21, 'I6E': 542590, 'S2A': 4, 'S2I': 22, 'S2E': 350794, 'C4A': 3, 'C4I': 23, 'C4E': 265031, 'A7A': 2, 'A7I': 24, 'A7E': 654207, 'S3A': 1, 'S3I': 25, 'S3E': 436281, 'E7A': 2, 'E7I': 26, 'E7E': 149758, 'E4A': 3, 'E4I': 27, 'E4E': 225020, 'I8A': 4, 'I8I': 28, 'I8E': 160462, 'C2A': 5, 'C2I': 29, 'C2E': 19931, 'A4A': 4, 'A4I': 30, 'A4E': 187165, 'R8A': 3, 'R8I': 31, 'R8E': 687502, 'R7A': 2, 'R7I': 32, 'R7E': 696512, 'S4A': 1, 'S4I': 33, 'S4E': 52904, 'A8A': 2, 'A8I': 34, 'A8E': 553995, 'E6A': 3, 'E6I': 35, 'E6E': 511249, 'E1A': 4, 'E1I': 36, 'E1E': 76300, 'C8A': 5, 'C8I': 37, 'C8E': 79894, 'R5A': 4, 'R5I': 38, 'R5E': 530560, 'E5A': 3, 'E5I': 39, 'E5E': 372431, 'S6A': 2, 'S6I': 40, 'S6E': 124305, 'A5A': 1, 'A5I': 41, 'A5E': 188154, 'A6A': 2, 'A6I': 42, 'A6E': 451171, 'I2A': 3, 'I2I': 43, 'I2E': 45842, 'A3A': 4, 'A3I': 44, 'A3E': 7422, 'C5A': 5, 'C5I': 45, 'C5E': 112646, 'C7A': 4, 'C7I': 46, 'C7E': 146219, 'I4A': 3, 'I4I': 47, 'I4E': 320656, 'E8A': 2, 'E8I': 48, 'E8E': 316345}
+DEBUG - 08-Jun-21 11:56:42 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 11:56:45 - https://openpsychometrics.org:443 "POST /tests/RIASEC/2.php HTTP/1.1" 200 976
+INFO - 08-Jun-21 11:56:45 - 2.php response: 
+<br/>
+<b>
+ Notice
+</b>
+:  Undefined index: unqid in
+<b>
+ /websites/openpsychometrics.org/tests/RIASEC/2.php
+</b>
+on line
+<b>
+ 26
+</b>
+<br/>
+<br/>
+<b>
+ Notice
+</b>
+:  Undefined index: seconds in
+<b>
+ /websites/openpsychometrics.org/tests/RIASEC/2.php
+</b>
+on line
+<b>
+ 30
+</b>
+<br/>
+<html>
+ <head>
+  <title>
+   Holland Code (RIASEC) Test
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+   div
+{
+	font-family: "Arvo", serif;
+}
+  </style>
+  <script type="text/javascript">
+   function update_options()
+	{
+		if(document.getElementById("syes").checked)
+		{
+			document.getElementById("get_results_form").style.display = "none";
+			document.getElementById("continue_form").style.display = "block";
+		}
+		else
+		{
+			document.getElementById("get_results_form").style.display = "block";
+			document.getElementById("continue_form").style.display = "none";
+		}
+	}
+  </script>
+ </head>
+ <body style="margin:0; padding:0;background-color:#F5F5F5;">
+  <div id="end" style="margin:0 auto; max-width:650px;padding:1em;">
+   You have completed the test.
+   <br/>
+   <br/>
+   Before you view your results, would you be willing to answer a few more research questions?
+   <br/>
+   <label>
+    <input id="syes" name="dosurvey" onchange="update_options();" type="radio" value="1"/>
+    Yes (3-6  minutes)
+   </label>
+   <br/>
+   <label>
+    <input id="sno" name="dosurvey" onchange="update_options();" type="radio" value="2"/>
+    No
+   </label>
+   <br/>
+   <br/>
+   <form action="results.php?d=TVRr-01ULXNNVElzT1N3eE9Dd3lNUWNj" id="get_results_form" method="POST">
+    <input type="submit" value="Get results"/>
+    <input name="R" type="hidden" value="19"/>
+    <input name="I" type="hidden" value="17"/>
+    <input name="A" type="hidden" value="12"/>
+    <input name="S" type="hidden" value="9"/>
+    <input name="E" type="hidden" value="18"/>
+    <input name="C" type="hidden" value="21"/>
+    <input name="dosurvey" type="hidden" value="2"/>
+    <input name="unqid" type="hidden" value=""/>
+    <input name="seconds" type="hidden" value="1623142605"/>
+   </form>
+   <form action="3.php" id="continue_form" method="POST" style="display:none;">
+    <input type="submit" value="Continue"/>
+    <input name="R" type="hidden" value="19"/>
+    <input name="I" type="hidden" value="17"/>
+    <input name="A" type="hidden" value="12"/>
+    <input name="S" type="hidden" value="9"/>
+    <input name="E" type="hidden" value="18"/>
+    <input name="C" type="hidden" value="21"/>
+    <input name="unqid" type="hidden" value=""/>
+    <input name="seconds" type="hidden" value="1623142605"/>
+    <input name="surveyorid" type="hidden" value="osri_supl1"/>
+   </form>
+  </div>
+ </body>
+</html>
+
+INFO - 08-Jun-21 11:56:45 - code_score = {'R': '19', 'I': '17', 'A': '12', 'S': '9', 'E': '18', 'C': '21'}
+DEBUG - 08-Jun-21 12:00:00 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 12:00:01 - https://openpsychometrics.org:443 "GET /tests/RIASEC/1.php HTTP/1.1" 200 2651
+INFO - 08-Jun-21 12:00:53 - test_data = {'E3A': 1, 'E3I': 1, 'E3E': 509676, 'E6A': 2, 'E6I': 2, 'E6E': 107910, 'A6A': 3, 'A6I': 3, 'A6E': 189358, 'I3A': 4, 'I3I': 4, 'I3E': 150662, 'R2A': 5, 'R2I': 5, 'R2E': 671349, 'I1A': 4, 'I1I': 6, 'I1E': 75141, 'S1A': 3, 'S1I': 7, 'S1E': 686536, 'E5A': 2, 'E5I': 8, 'E5E': 72149, 'E4A': 1, 'E4I': 9, 'E4E': 582565, 'I8A': 2, 'I8I': 10, 'I8E': 511702, 'A7A': 3, 'A7I': 11, 'A7E': 597729, 'S4A': 4, 'S4I': 12, 'S4E': 262334, 'R7A': 5, 'R7I': 13, 'R7E': 698466, 'E2A': 4, 'E2I': 14, 'E2E': 33696, 'S2A': 3, 'S2I': 15, 'S2E': 699424, 'C4A': 2, 'C4I': 16, 'C4E': 100346, 'C1A': 1, 'C1I': 17, 'C1E': 132665, 'I7A': 2, 'I7I': 18, 'I7E': 120761, 'R1A': 3, 'R1I': 19, 'R1E': 592756, 'S6A': 4, 'S6I': 20, 'S6E': 468444, 'C5A': 5, 'C5I': 21, 'C5E': 679782, 'E8A': 4, 'E8I': 22, 'E8E': 408688, 'C3A': 3, 'C3I': 23, 'C3E': 180518, 'I6A': 2, 'I6I': 24, 'I6E': 620465, 'R4A': 1, 'R4I': 25, 'R4E': 19071, 'S8A': 2, 'S8I': 26, 'S8E': 665934, 'S7A': 3, 'S7I': 27, 'S7E': 487869, 'I2A': 4, 'I2I': 28, 'I2E': 205241, 'A4A': 5, 'A4I': 29, 'A4E': 557112, 'C7A': 4, 'C7I': 30, 'C7E': 539592, 'A2A': 3, 'A2I': 31, 'A2E': 40707, 'S3A': 2, 'S3I': 32, 'S3E': 285720, 'A1A': 1, 'A1I': 33, 'A1E': 176469, 'C2A': 2, 'C2I': 34, 'C2E': 626213, 'E7A': 3, 'E7I': 35, 'E7E': 128947, 'A5A': 4, 'A5I': 36, 'A5E': 569469, 'E1A': 5, 'E1I': 37, 'E1E': 451265, 'R8A': 4, 'R8I': 38, 'R8E': 30231, 'R6A': 3, 'R6I': 39, 'R6E': 103933, 'I5A': 2, 'I5I': 40, 'I5E': 28387, 'S5A': 1, 'S5I': 41, 'S5E': 419019, 'R3A': 2, 'R3I': 42, 'R3E': 332365, 'C8A': 3, 'C8I': 43, 'C8E': 556107, 'C6A': 4, 'C6I': 44, 'C6E': 467974, 'R5A': 5, 'R5I': 45, 'R5E': 371112, 'A3A': 4, 'A3I': 46, 'A3E': 550657, 'I4A': 3, 'I4I': 47, 'I4E': 571408, 'A8A': 2, 'A8I': 48, 'A8E': 299837}
+DEBUG - 08-Jun-21 12:00:53 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 12:00:54 - https://openpsychometrics.org:443 "POST /tests/RIASEC/2.php HTTP/1.1" 200 970
+INFO - 08-Jun-21 12:00:54 - 2.php response: 
+<br/>
+<b>
+ Notice
+</b>
+:  Undefined index: unqid in
+<b>
+ /websites/openpsychometrics.org/tests/RIASEC/2.php
+</b>
+on line
+<b>
+ 26
+</b>
+<br/>
+<br/>
+<b>
+ Notice
+</b>
+:  Undefined index: seconds in
+<b>
+ /websites/openpsychometrics.org/tests/RIASEC/2.php
+</b>
+on line
+<b>
+ 30
+</b>
+<br/>
+<html>
+ <head>
+  <title>
+   Holland Code (RIASEC) Test
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+   div
+{
+	font-family: "Arvo", serif;
+}
+  </style>
+  <script type="text/javascript">
+   function update_options()
+	{
+		if(document.getElementById("syes").checked)
+		{
+			document.getElementById("get_results_form").style.display = "none";
+			document.getElementById("continue_form").style.display = "block";
+		}
+		else
+		{
+			document.getElementById("get_results_form").style.display = "block";
+			document.getElementById("continue_form").style.display = "none";
+		}
+	}
+  </script>
+ </head>
+ <body style="margin:0; padding:0;background-color:#F5F5F5;">
+  <div id="end" style="margin:0 auto; max-width:650px;padding:1em;">
+   You have completed the test.
+   <br/>
+   <br/>
+   Before you view your results, would you be willing to answer a few more research questions?
+   <br/>
+   <label>
+    <input id="syes" name="dosurvey" onchange="update_options();" type="radio" value="1"/>
+    Yes (3-6  minutes)
+   </label>
+   <br/>
+   <label>
+    <input id="sno" name="dosurvey" onchange="update_options();" type="radio" value="2"/>
+    No
+   </label>
+   <br/>
+   <br/>
+   <form action="results.php?d=TWpB-01UVXNNVC1zTVRR-01UUXNNVFlj" id="get_results_form" method="POST">
+    <input type="submit" value="Get results"/>
+    <input name="R" type="hidden" value="20"/>
+    <input name="I" type="hidden" value="15"/>
+    <input name="A" type="hidden" value="17"/>
+    <input name="S" type="hidden" value="14"/>
+    <input name="E" type="hidden" value="14"/>
+    <input name="C" type="hidden" value="16"/>
+    <input name="dosurvey" type="hidden" value="2"/>
+    <input name="unqid" type="hidden" value=""/>
+    <input name="seconds" type="hidden" value="1623142854"/>
+   </form>
+   <form action="3.php" id="continue_form" method="POST" style="display:none;">
+    <input type="submit" value="Continue"/>
+    <input name="R" type="hidden" value="20"/>
+    <input name="I" type="hidden" value="15"/>
+    <input name="A" type="hidden" value="17"/>
+    <input name="S" type="hidden" value="14"/>
+    <input name="E" type="hidden" value="14"/>
+    <input name="C" type="hidden" value="16"/>
+    <input name="unqid" type="hidden" value=""/>
+    <input name="seconds" type="hidden" value="1623142854"/>
+    <input name="surveyorid" type="hidden" value="osri_supl1"/>
+   </form>
+  </div>
+ </body>
+</html>
+
+INFO - 08-Jun-21 12:00:54 - code_score = {'R': '20', 'I': '15', 'A': '17', 'S': '14', 'E': '14', 'C': '16'}
+INFO - 08-Jun-21 12:00:54 - user_login: irina, code: RACISE
+DEBUG - 08-Jun-21 13:17:53 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 13:17:54 - https://openpsychometrics.org:443 "GET /tests/RIASEC/1.php HTTP/1.1" 200 2649
+DEBUG - 08-Jun-21 13:18:14 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 13:18:15 - https://openpsychometrics.org:443 "GET /tests/RIASEC/1.php HTTP/1.1" 200 2652
+DEBUG - 08-Jun-21 13:18:45 - Starting new HTTPS connection (1): openpsychometrics.org:443
+DEBUG - 08-Jun-21 13:18:46 - https://openpsychometrics.org:443 "GET /tests/RIASEC/1.php HTTP/1.1" 200 2651
